@@ -1,0 +1,9 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(images/hero-bg.jpg);
+    height: 100vh;
+}
