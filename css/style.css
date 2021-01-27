@@ -68,12 +68,17 @@ h2 {
   font-weight: 600;
 }
 
+.hero__nav-link--active {
+  color: #083c6e;
+}
+
 .hero__nav button.hero__button {
   border: none;
   width: 195px;
-  background-color: #083C6E;
+  background-color: #083c6e;
   color: #fff;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .hero__content {

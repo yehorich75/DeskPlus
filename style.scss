@@ -53,14 +53,18 @@ h2 {
       letter-spacing: 0.05em;
       color: #000;
       font-weight: 600;
+      &--active {
+        color: #083c6e;
+      }
     }
 
     button.hero__button {
-        border: none;
-        width: 195px;
-        background-color: #083C6E;
-        color: #fff;
-        text-transform: uppercase;
+      border: none;
+      width: 195px;
+      background-color: #083c6e;
+      color: #fff;
+      text-transform: uppercase;
+      cursor: pointer;
     }
   }
 
