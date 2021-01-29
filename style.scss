@@ -86,4 +86,29 @@ h2 {
     font-size: 1.15rem;
     line-height: 1.9rem;
   }
+
+  &__form {
+    width: 436px;
+    background-color: #f1f1f1;
+    &-actions {
+      height: 49px;
+    }
+    input {
+      color: #747DA1;
+      border: none;
+      background-color: #f1f1f1;
+      font-size: 1rem;
+    }
+    &-send {
+      background-color: #083c6e;
+      font-family: Poppins;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      color: #fff;
+      text-transform: uppercase;
+      border: none;
+      padding: 0 3.9rem;
+      height: 49px;
+    }
+  }
 }
